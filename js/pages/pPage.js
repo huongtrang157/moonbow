@@ -1,0 +1,1 @@
+var pPage={init:function(){}};

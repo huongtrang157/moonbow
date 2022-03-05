@@ -1,0 +1,56 @@
+
+.arrowDown {
+  position: fixed;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+  border-radius: 50%;
+  border: 2px solid #333;
+  left: 50%;
+  margin-left: -25px;
+  background: url(../images/ar.png) no-repeat center/50% 50%;
+}
+
+.arrowDown:hover {
+  background: url(../images/ar1.png) no-repeat center/50% 50% #333;
+}
+[direction~="up"] {
+  transform: rotate(-90deg);
+  top: 10px;
+  bottom: unset;
+}
+[direction~="down"] {
+  transform: rotate(90deg);
+}
+.ourWorkDetailContent p strong {
+  font-family: 'Conv_SVN-GilroyBold';
+}
+
+@media screen and (min-width: 1500px) {
+  #pAbout #copyInfo p {
+    padding-right: 0;
+  }
+  #pAbout .copy .nano>.nano-content {
+      padding-right: 500px;
+  }
+  #pAbout .copy {
+    left: 200px;
+  }
+  
+}
+
+@media screen and (min-width: 1300px) {
+  #pAbout #copyInfo p {
+    padding-right: 0;
+  }
+  #pAbout .copy .nano>.nano-content {
+    padding-right: 300px;
+  }
+  #pAbout .copy {
+    left: 150px;
+  }
+  #pAbout .copy p {
+    padding-right: 200px;
+  }
+}
